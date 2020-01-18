@@ -7,7 +7,7 @@ var nombre = "Raul";
 
 var nombres = ["Raul", "Bego", "Maria", 50, true];
 
-var lenguajes = new Array ("Java", "JS", "PHP", "C#", "Pyton");
+var lenguajes = new Array("Java", "JS", "PHP", "C#", "Pyton");
 
 /*console.log(nombres);
 console.log(nombres.length);
@@ -43,8 +43,8 @@ lenguajes.forEach( (elemento, indice) => {
 
 //Nota fuera del curso let in recorre las keys y let of recorre el valor
 //for(let lenguaje of lenguajes){
-for(let lenguaje in lenguajes){
-		document.write("<li>"  + lenguaje + " - " + lenguajes[lenguaje] +"</li>");//
+for (let lenguaje in lenguajes) {
+	document.write("<li>" + lenguaje + " - " + lenguajes[lenguaje] + "</li>");//
 	//document.write("<li>"  + lenguaje +"</li>");
 }
 
@@ -56,7 +56,7 @@ document.write("</ul>");
 var precios = [10, 20, 50, 80, 12];
 
 var busqueda = lenguajes.find(lenguaje => lenguaje == "PHP");//Busqueda y muestra el elemento
-	busqueda = lenguajes.findIndex(lenguaje => lenguaje == "PHP");//Busqueda y muestra el index
-	busqueda = precios.some(precio => precio >= 20);//Encontrar si hay valores de un tipo u otro de numeros y cumple la condicion'true or false'
+busqueda = lenguajes.findIndex(lenguaje => lenguaje == "PHP");//Busqueda y muestra el index
+busqueda = precios.some(precio => precio >= 20);//Encontrar si hay valores de un tipo u otro de numeros y cumple la condicion'true or false'
 
 console.log(busqueda);
