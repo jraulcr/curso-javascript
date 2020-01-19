@@ -1,4 +1,4 @@
-'use strict'
+'use strict' // Modo estricto
 
 
 //Variables son cotenedores de información
