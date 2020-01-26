@@ -2,8 +2,11 @@
 
 //Eventos de raton
 
-function cambiarColor() {
+/** Forma antigua*/
+/*window.addEventListener('load', function(){*/
+window.addEventListener('load', () => {
 
+function cambiarColor() {
     console.log("Me has dado click");
 
     var bg = boton.style.background;
@@ -61,4 +64,6 @@ input.addEventListener('keypress', function (event) {
 //Keyoup
 input.addEventListener('keyup', function (event) {
     console.log("[keyup] Tecla soltada ", String.fromCharCode(event.keyCode));
+});
+
 });
