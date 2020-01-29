@@ -28,11 +28,15 @@ var boton = document.querySelector("#boton");
 //Click
 boton.addEventListener('click', function () {//addEventListener captura el evento es la forma mas limpia que llamandolo en el HTML
     cambiarColor();
+    console.log(this);
+    this.style.border = "10px solid black";
+   
 });
 
 //MouseOver
 boton.addEventListener('mouseover', function () {
-    boton.style.background = "yellow";
+    console.log(this);
+    this.style.background = "yellow";
 });
 
 //Mouseout
