@@ -41,7 +41,7 @@ boton.addEventListener('mouseover', function () {
 
 //Mouseout
 boton.addEventListener('mouseout', function () {
-    boton.style.background = "#ccc";
+    this.style.background = "#ccc";
 });
 
 var input = document.querySelector("#campo_nombre");

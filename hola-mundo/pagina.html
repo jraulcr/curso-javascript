@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Curso JavaScript</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <script src="js/34-localstorage.js"></script>
 
-    </head>
-    <body>
-        <h1>JSON</h1>
-        <div id="peliculas">
-            <h2>Peliculas</h2>
-        </div>
+<head>
+    <title>Curso JavaScript</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <div id="datos"></div>
-    </body>
+    <script src="js/35-ejercicio-localstorage.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Añade tu pelicula</h1>
+    <form action="" id="formpeliculas" method="get">        
+        <input type="text" id="addpelicula" />
+        <button type="submit">Guardar</button>
+    </form>
+
+<h2>Peliculas</h2>
+    <div id="peliculas">
+        <ul id="peliculas-list">
+            
+        </ul>
+    </div>
+
+    <h1>Borra tu pelicula</h1>
+    <form action="" id="formBorrarPeliculas" method="get">        
+        <input type="text" id="borrarPelicula" />
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+
 </html>

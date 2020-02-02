@@ -24,7 +24,7 @@ document.querySelector("#peliculas").innerHTML = localStorage.getItem("titulo");
 var usuario = {
     nombre : "Juan Raúl Crespo",
     email: "elqueroba@roba.es",
-    web: "www.mandawebos.es"
+    web: "www.mandawevos.es"
 };
 localStorage.setItem("usuario", JSON.stringify(usuario)); // Convertimos un objeto en String con 'JSON.stringify()'
 
