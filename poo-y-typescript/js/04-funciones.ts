@@ -1,5 +1,5 @@
 
-function getNumero(numero = 12){
+function getNumero(numero:number = 12):string{
     return "El numero es: " + numero;
 }
 
