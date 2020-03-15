@@ -2,8 +2,13 @@
 
 
 <ul>
-  <li>Adidas</li>
+<!-- <li>Adidas</li>
   <li>Puma</li>
   <li>Reeboock</li>
-  <li>Joma</li>
+  <li>Joma</li>-->
+
+  <li *ngFor="let deportiva of zapatillas">
+    {{deportiva.nombre}} - <strong>{{deportiva.precio}}</strong>
+
+  </li>
 </ul>
