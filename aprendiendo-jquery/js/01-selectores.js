@@ -12,5 +12,15 @@ $(document).ready(function(){
     $('#verde').css('background','green')
                         .css('color','yellow');
 
-    console.log(rojo);
-});
+    var miclase = $('.cebra');
+        console.log(miclase);    
+    });
+
+    //Selectores de etiqueta
+
+    var parrafos = $('p');
+
+    parrafos.click(function(){
+
+        $(this).removeClass('cebra');
+    });

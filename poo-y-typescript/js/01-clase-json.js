@@ -9,7 +9,6 @@ var bicicleta = {
         this.color= nuevo_color;   
         console.log(this) ;    
     }
-
 };
 
 console.log('azul');
